@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Project - Counter</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Counter</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-</head>
-<body>
-  
-</body>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <h1>Counter</h1>
+    <p>Click on the buttons to change the value</p>
+    <div id="counter">
+      <button name="deduct" onclick="decrement()">-</button>
+      <span id="currentNumber">0</span>
+      <button name="add" onclick="increment()">+</button>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
